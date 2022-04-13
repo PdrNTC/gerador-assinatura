@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Configura o arquivo CSS, o titulo e o icone da pagina -->
+  <title>VIVAPREV - Gerador de Assinaturas</title>
+  <link rel="stylesheet" type="text/css" href="index.css" />
+  <link rel="icon" href="C:\Users\Pedro\Desktop\Email-sign-generator-canvas\Email-sign-generator-canvas\assets\imgs\iconweb.png" type="image/png">
+</head>
+
+<body>
+  <!-- Cria um wrapper "app" -->
+  <div class="app">
+    <!-- Cria um wrapper "content" -->
+    <div class="content">
+      <!-- Cria um cabecalho com a logo e o nome/slogan -->
+      <div class="header">
+        <span>
+          <img src="C:\Users\Pedro\Desktop\Email-sign-generator-canvas\Email-sign-generator-canvas\assets\imgs\logotipo.png" class="assinaturaImagem"
+            style="max-width: 400px;">
+        </span>
+        <h1 class="display-4">VIVA PREVIDÊNCIA</h1>
+        <p class="h2"> Gerador de Assinatura</p>
+      </div>
+
+
+      <div class="forms">
+        <!-- Cria um formulario para o usuario preencher -->
+        <form>
+          <!-- Cada campo e uma divisao com um texto (descricao) e uma entrada de texto <input> -->
+          <!-- Cada <input> recebe um id, que e usado no script para pegar o que o usuario digitou -->
+          <div class="form-input">
+            <p><strong>Nome:</strong></p><input type="text" id="nome" class="input-text">
+          </div>
+          <div class="form-input">
+            <p><strong>Cargo:</strong></p><input type="text" id="sobrenome" class="input-text">
+          </div>
+          <div class="form-input">
+            <p><strong>Gerencia:</strong></p><input type="text" id="gerencia" class="input-text">
+          </div>
+          <div class="form-input">
+            <p><strong>Telefone:</strong></p><input type="text" id="telefone" class="input-text">
+          </div>
+        </form>
+      </div>
+
+      <div class="assinatura-wrapper">
+
+        <!-- Cria a divisao que sera usada para copiar a assinatura -->
+        <div class="assinatura-div" id="assinatura-div">
+		<canvas id="idCanvas" width="1100" height="300"></canvas>
+        </div>
+      </div>
+      
+      <!-- Cria divisao para o botao na parte de baixo -->
+      <div class="center-a">
+	<a class="download-image" download="assinatura.png" href="">
+          <h2>Fazer Download</h2>
+	</a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Configura o script com o codigo -->
+  <script src="index.js"></script>
+</body>
+
+</html>
