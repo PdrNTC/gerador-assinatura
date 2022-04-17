@@ -1,24 +1,14 @@
-
 @font-face {
   font-family: Minhafonte;
-  src: url('https://github.com/PdrNTC/gerador-assinatura/blob/main/assets/font/Montserrat-Bold.ttf.ttf.ttf');
+  src: url('https://github.com/PdrNTC/gerador-assinatura/blob/main/assets/font/Montserrat-Bold.ttf');
   font-weight: normal;
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Minhafonte, sans-serif;
   font-weight: normal;
-  /*
-  font-family: Minhafonte, Arial, Helvetica, sans-serif;
-  background-color: #ededed;
-  */
 }
-/*
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #ededed;
-}
-*/
+
 .app {
   padding: 2vh 2vw 2vh 2vw;
 }
