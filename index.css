@@ -1,3 +1,4 @@
+/*
 @font-face {
   font-family: Minhafonte;
   src: url('https://github.com/PdrNTC/gerador-assinatura/blob/main/assets/font/Montserrat-Bold.ttf');
@@ -9,9 +10,10 @@
   font-family: Minhafonte;
   background-color: #ededed;
 }
+*/
 
 body {
-  font-family: Minhafonte;
+  font-family: Montserrat;
   background-color: #ededed;
 }
 
