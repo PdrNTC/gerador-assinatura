@@ -1,3 +1,4 @@
+/*
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
 @font-face {
@@ -6,9 +7,10 @@
   font-weight: normal;
   font-display: swap;
 }
+*/
 
 body {
-  font-family: Minhafonte, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
 }
 
