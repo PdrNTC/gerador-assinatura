@@ -5,6 +5,11 @@
   font-display: swap;
 }
 
+.assinatura-wrapper {
+  font-family: Minhafonte;
+  background-color: #ededed;
+}
+
 body {
   font-family: 'Minhafonte', sans-serif;
   font-weight: normal;
