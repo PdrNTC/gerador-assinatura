@@ -1,16 +1,12 @@
-/*
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-
 @font-face {
   font-family: Minhafonte;
   src: url('https://github.com/PdrNTC/gerador-assinatura/blob/main/assets/font/Montserrat-Bold.ttf');
   font-weight: normal;
   font-display: swap;
 }
-*/
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Minhafonte', sans-serif;
   font-weight: normal;
 }
 
