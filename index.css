@@ -11,8 +11,8 @@
 }
 
 body {
-  font-family: 'Minhafonte', sans-serif;
-  font-weight: normal;
+  font-family: Minhafonte;
+  background-color: #ededed;
 }
 
 .app {
